@@ -32,5 +32,11 @@ public class stack{
             //7,pop Removing elements
             s1.pop();
                 System.out.println(s1);
+          //How to iterate over a stack
+                Iterator it = s1.iterator();
+                while (it.hasNext()){
+                    Object s2 = it.next();
+                    System.out.println(s2);
+                }
     }
 }
